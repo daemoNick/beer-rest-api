@@ -6,4 +6,4 @@ class BeerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.BeerDiaryItem
-        fields = ('id', 'beer_name', 'brewer', 'created_on', 'price', 'serving_type', 'description')
+        fields = ('id', 'beer_name', 'brewer', 'created_on', 'price', 'rating', 'flavour', 'serving_type', 'description')
